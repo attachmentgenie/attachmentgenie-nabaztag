@@ -10,7 +10,7 @@ Requirements
 ------------
 
 * `puppet`
-* `nabaztag'
+* `nabaztag`
 
 Installation & Usage
 -------------------

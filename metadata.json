@@ -1,0 +1,19 @@
+{
+  "name": "puppet-nabaztag",
+  "author": "",
+  "description": "",
+  "license": "Apache 2.0",
+  "project_page": "https://github.com/attachmentgenie/puppet-nabaztag",
+  "source": "",
+  "summary": "Report processor that notifies your Nabaztag about failed Puppet runs",
+  "version": "0.1.0",
+  "checksums": {
+    "LICENSE": "8f7bb094c7232b058c7e9f2e431f389c",
+    "Modulefile": "53c875b6226840b48c6a1efc75272e15",
+    "README.md": "a6c89b18b3ce626665af3fb1cb004e2f",
+    "lib/puppet/reports/nabaztag.rb": "1f8f31e5b137a4f72966ca6353d161a9",
+    "manifests/init.pp": "d41d8cd98f00b204e9800998ecf8427e",
+    "nabaztag.yaml": "7d3eca007d3bf69fdb3cd84d62ff073a"
+  },
+  "dependencies": []
+}

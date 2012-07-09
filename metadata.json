@@ -1,19 +1,26 @@
 {
-  "name": "puppet-nabaztag",
-  "author": "",
-  "description": "",
-  "license": "Apache 2.0",
+  "name": "attachmentgenie-nabaztag",
+  "author": "Bram Vogelaar \u003cbram@attachmentgenie.com\u003e",
+  "description": "Report processor that notifies your Nabaztag about failed Puppet runs",
+  "license": "MIT License",
   "project_page": "https://github.com/attachmentgenie/puppet-nabaztag",
-  "source": "",
+  "source": "git://github.com/attachmentgenie/attachmentgenie-nabaztag.git",
   "summary": "Report processor that notifies your Nabaztag about failed Puppet runs",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "checksums": {
-    "LICENSE": "8f7bb094c7232b058c7e9f2e431f389c",
-    "Modulefile": "53c875b6226840b48c6a1efc75272e15",
-    "README.md": "a6c89b18b3ce626665af3fb1cb004e2f",
+    "Gemfile": "0a275f1d64df25282170d15201432745",
+    "LICENSE": "fac1e3b4c2a71b0dc8f30740f9d602f5",
+    "Modulefile": "f41fe96ebd2cc8ff860a3feaa0852ac4",
+    "README.md": "cc0d91f9998cd963d141e1254ad01700",
+    "Rakefile": "9b80b157fe8bf8ee3975c7dec8524204",
     "lib/puppet/reports/nabaztag.rb": "1f8f31e5b137a4f72966ca6353d161a9",
     "manifests/init.pp": "d41d8cd98f00b204e9800998ecf8427e",
     "nabaztag.yaml": "7d3eca007d3bf69fdb3cd84d62ff073a"
   },
-  "dependencies": []
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": "\u003e\u003d2.2.1"
+    }
+  ]
 }

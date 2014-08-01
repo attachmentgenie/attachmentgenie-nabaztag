@@ -1,12 +1,13 @@
 {
-  "name": "puppet-nabaztag",
-  "author": "Bram Vogelaar \u003cbram@attachmentgenie.com\u003e",
-  "description": "Report processor that notifies your Nabaztag about failed Puppet runs",
-  "license": "MIT License",
-  "project_page": "https://github.com/attachmentgenie/puppet-nabaztag",
-  "source": "git://github.com/attachmentgenie/puppet-nabaztag.git",
+  "name": "attachmentgenie-nabaztag",
+  "version": "1.0.1",
+  "author": "Bram Vogelaar <bram@attachmentgenie.com>",
   "summary": "Report processor that notifies your Nabaztag about failed Puppet runs",
-  "version": "1.0.0",
+  "license": "MIT License",
+  "source": "git://github.com/attachmentgenie/attachmentgenie-nabaztag.git",
+  "project_page": "https://github.com/attachmentgenie/attachmentgenie-nabaztag",
+  "issues_url": "https://github.com/attachmentgenie/puppet-nabaztag/issues",
+  "description": "Report processor that notifies your Nabaztag about failed Puppet runs",
   "checksums": {
     "Gemfile": "0a275f1d64df25282170d15201432745",
     "LICENSE": "fac1e3b4c2a71b0dc8f30740f9d602f5",
@@ -20,7 +21,8 @@
   "dependencies": [
     {
       "name": "puppetlabs/stdlib",
-      "version_requirement": "\u003e\u003d2.2.1"
-    }
+      "version_requirement": ">=2.2.1"
+    },
+    {"name":"puppetlabs/stdlib","version_requirement":">=2.2.1"}
   ]
 }

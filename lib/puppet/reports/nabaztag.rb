@@ -22,7 +22,7 @@ Puppet::Reports.register_report(:nabaztag) do
   def process
     if self.status == 'failed'
       Puppet.debug "Sending status for #{self.host} to Nabaztag."
-      nabaztag = Nabaztag.new(#{NABAZTAG_SERIAL}, #{NABAZTAG_TOKEN})
+      nabaztag = Nabaztag.new(NABAZTAG_SERIAL, NABAZTAG_TOKEN)
       msg = "Puppet run for #{self.host} #{self.status}"
       nabaztag.say(msg)
       nabaztag.send

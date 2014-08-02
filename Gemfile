@@ -10,6 +10,7 @@ group :development, :test do
   gem 'beaker-rspec',            :require => false
   gem 'pry',                     :require => false
   gem 'simplecov',               :require => false
+  gem 'nabaztag',                :require => false
 end
 
 if facterversion = ENV['FACTER_GEM_VERSION']

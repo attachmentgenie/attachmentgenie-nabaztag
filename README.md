@@ -1,6 +1,6 @@
-[![Build Status](https://secure.travis-ci.org/attachmentgenie/puppet-nabaztag.png)](http://travis-ci.org/attachmentgenie/puppet-nabaztag)
+[![Build Status](https://secure.travis-ci.org/attachmentgenie/attachmentgenie-nabaztag.png)](http://travis-ci.org/attachmentgenie/attachmentgenie-nabaztag)
 
-puppet-nabaztag
+attachmentgenie-nabaztag
 ==============
 
 Description
@@ -21,7 +21,7 @@ Installation & Usage
 
         $ sudo gem install nabaztag
 
-2.  Install puppet-nabaztag as a module in your Puppet master's module
+2.  Install attachmentgenie-nabaztag as a module in your Puppet master's module
     path.
 
 3.  Update the `nabaztag_serial`, `nabaztag_token` variables in the

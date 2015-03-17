@@ -1,28 +1,82 @@
 {
   "name": "attachmentgenie-nabaztag",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Bram Vogelaar <bram@attachmentgenie.com>",
   "summary": "Report processor that notifies your Nabaztag about failed Puppet runs",
-  "license": "MIT License",
-  "source": "git://github.com/attachmentgenie/attachmentgenie-nabaztag.git",
+  "license": "MIT",
+  "source": "https://github.com/attachmentgenie/attachmentgenie-nabaztag.git",
   "project_page": "https://github.com/attachmentgenie/attachmentgenie-nabaztag",
   "issues_url": "https://github.com/attachmentgenie/attachmentgenie-nabaztag/issues",
   "description": "Report processor that notifies your Nabaztag about failed Puppet runs",
-  "checksums": {
-    "Gemfile": "0a275f1d64df25282170d15201432745",
-    "LICENSE": "fac1e3b4c2a71b0dc8f30740f9d602f5",
-    "Modulefile": "ccfdf0ba20e1dc59d9e4788ed2b169fb",
-    "README.md": "a665e1c7c7ed231d789e9a969c43cde5",
-    "Rakefile": "9b80b157fe8bf8ee3975c7dec8524204",
-    "lib/puppet/reports/nabaztag.rb": "1f8f31e5b137a4f72966ca6353d161a9",
-    "manifests/init.pp": "d41d8cd98f00b204e9800998ecf8427e",
-    "nabaztag.yaml": "7d3eca007d3bf69fdb3cd84d62ff073a"
-  },
-  "dependencies": [
+  "tags": [
+    "nabaztag"
+  ],
+  "operatingsystem_support": [
     {
-      "name": "puppetlabs/stdlib",
-      "version_requirement": ">=2.2.1"
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "6.0",
+        "6.1",
+        "6.2",
+        "6.3",
+        "6.4",
+        "6.5",
+        "6.6",
+        "6.6",
+        "6.7",
+        "6.8",
+        "6.9",
+        "6.10",
+        "7.0",
+        "7.1",
+        "7.2",
+        "7.3",
+        "7.4",
+        "7.5",
+        "7.6",
+        "7.7",
+        "7.8"
+      ]
     },
-    {"name":"puppetlabs/stdlib","version_requirement":">=2.2.1"}
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "10.04",
+        "10.10",
+        "11.04",
+        "11.10",
+        "12.04",
+        "12.10",
+        "13.04",
+        "13.10",
+        "14.04",
+        "14.10"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "6.0",
+        "6.1",
+        "6.2",
+        "6.3",
+        "6.4",
+        "6.5"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "6.0",
+        "6.1",
+        "6.2",
+        "6.3",
+        "6.4",
+        "6.5"
+      ]
+    }
+  ],
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">=2.2.1 <5.0.0" }
   ]
 }

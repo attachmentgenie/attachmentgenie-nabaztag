@@ -1,6 +1,6 @@
 {
   "name": "attachmentgenie-nabaztag",
-  "version": "1.1.1",
+  "version": "99.99.99",
   "author": "Bram Vogelaar <bram@attachmentgenie.com>",
   "summary": "Report processor that notifies your Nabaztag about failed Puppet runs",
   "license": "MIT",

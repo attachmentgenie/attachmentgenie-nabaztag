@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/attachmentgenie/attachmentgenie-nabaztag.png)](http://travis-ci.org/attachmentgenie/attachmentgenie-nabaztag)
+#THIS MODULE IS NO LONGER MAINTAINED
 
 attachmentgenie-nabaztag
 ==============
